@@ -13,6 +13,6 @@
   },
   "rte": {
     "type": "image",
-    "message": "https://cdn.discordapp.com/attachments/808110624528662559/815435581944889395/read.png"
+    "src": "https://cdn.discordapp.com/attachments/808110624528662559/815435581944889395/read.png"
   }
 }
