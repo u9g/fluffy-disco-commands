@@ -14,5 +14,9 @@
   "rte": {
     "type": "image",
     "src": "https://i.imgur.com/6ffiHIj.png"
+  },
+  "cb": {
+    type: "message",
+    "message": "Use codeblocks for formatting code:\n\\`\\`\\`js\n<your code here>\n\\`\\`\\`\n\nProduces:\n```js\nif (true) {\n  console.log('Hello World!')\n}\n```"
   }
 }
