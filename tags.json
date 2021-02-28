@@ -19,5 +19,13 @@
   "cb": {
     "type": "message",
     "message": "Use codeblocks for formatting code:\n\\`\\`\\`js\n<your code here>\n\\`\\`\\`\n\nProduces:\n```js\nif (true) {\n  console.log('Hello World!')\n}\n```"
+  },
+  "does not work" {
+    "type": "message",
+    "message": "Against popular belief \"does not work\" is not sufficient information to provide to receive help.\nWhat's the expected (wanted) behaviour, what's the actual (unwanted) behaviour? Do you get any errors? What's your relevant code that might be causing the issue?"
+  },
+  "click" {
+    "type": "message",
+    "message": "All of the following assumes that you have already opened the desired window.\nTo click on an item in a window run: `bot.clickWindow(<slot>, <mouse_button>, 1)`\n\nThis will return a `Promise` of type `void`, which means in can be awaited.\n`<slot>` is the `item.slot` of the item you want to click on in the window.\n`<mouse_button>` is `0` for left click, and `1` for right click.\nTo get more info:\n<https://github.com/PrismarineJS/mineflayer/blob/master/docs/api.md#botclickwindowslot-mousebutton-mode-cb>" 
   }
 }
