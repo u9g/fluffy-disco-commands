@@ -5,7 +5,7 @@
   },
   "proxy": {
     "type": "message",
-    "message": "To use a proxy, refer to this: https://github.com/PrismarineJS/mineflayer/blob/master/docs/FAQ.md#how-can-i-use-a-socks5-proxy"
+    "message": "To use a proxy, refer to this: <https://github.com/PrismarineJS/mineflayer/blob/master/docs/FAQ.md#how-can-i-use-a-socks5-proxy>"
   },
   "sharecode": {
     "aliases": ["code"],
