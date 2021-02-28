@@ -8,6 +8,7 @@
     "message": "To use a proxy, refer to this: https://github.com/PrismarineJS/mineflayer/blob/master/docs/FAQ.md#how-can-i-use-a-socks5-proxy"
   },
   "sharecode": {
+    "aliases": ["code"],
     "type": "message",
     "message": "Give me your code! It will be easier for the both of us, and will make debugging way easier. \nPlease **use <https://privatebin.net/>, <https://gist.github.com/>, or <https://hastebin.com/> **"
   },
