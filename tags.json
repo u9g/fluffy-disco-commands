@@ -1,7 +1,7 @@
 {
   "help": {
     "type": "message",
-    "message": "\\* `?tags reload` to reload the tags\n\\* `?[tag]` to use a tag\n\\* `?help` to show this command\n\\* `?tags list` to list all tags"
+    "message": "\* `?tags reload` to reload the tags\n\* `?[tag]` to use a tag\n\* `?help` to show this command\n\* `?tags list` to list all tags"
   },
   "proxy": {
     "type": "message",
@@ -9,10 +9,10 @@
   },
   "sharecode": {
     "type": "message",
-    "message": "Give me your code! It will be easier for the both of us, and will make debugging way easier. \nPlease **use** https://privatebin.net/, https://gist.github.com/, or https://hastebin.com/**"
+    "message": "Give me your code! It will be easier for the both of us, and will make debugging way easier. \nPlease **use <https://privatebin.net/>, <https://gist.github.com/>, or <https://hastebin.com/> **"
   },
   "rte": {
     "type": "image",
-    "src": "https://cdn.discordapp.com/attachments/808110624528662559/815435581944889395/read.png"
+    "src": "https://i.imgur.com/6ffiHIj.png"
   }
 }
