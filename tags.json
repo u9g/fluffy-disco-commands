@@ -26,6 +26,6 @@
   },
   "click" {
     "type": "message",
-    "message": "All of the following assumes that you have already opened the desired window.\nTo click on an item in a window run: `bot.clickWindow(<slot>, <mouse_button>, <mode>)`\n\nThis will return a `Promise` of type `void`, which means in can be awaited.\n`<slot>` is the `item.slot` of the item you want to click on in the window.\n`<mouse_button>` is `0` for left click, and `1` for right click.\n`<mode>` is the mode of the click, mineflayer only supports `1` for this.\nTo get more info:\n<https://github.com/PrismarineJS/mineflayer/blob/master/docs/api.md#botclickwindowslot-mousebutton-mode-cb>" 
+    "message": "All of the following assumes that you have already opened the desired window.\nTo click on an item in a window use: `bot.clickWindow(<slot>, <mouse_button>, <mode>)`\n\nThis will return a `Promise` of type `void`, which means it can be awaited.\n`<slot>` is the `item.slot` of the item you want to click on in the window.\n`<mouse_button>` is `0` for left click, and `1` for right click.\n`<mode>` is the mode of the click, mineflayer only supports `1` for this.\nTo get more info:\n<https://github.com/PrismarineJS/mineflayer/blob/master/docs/api.md#botclickwindowslot-mousebutton-mode-cb>" 
   }
 }
