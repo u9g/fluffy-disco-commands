@@ -1,5 +1,4 @@
 {
-  "help": {
-    "message": "\\* `?[tag]` to use a tag\n\\* `?help` to show this command\n\\* `?tag list` to list all tags"
-  }
+  "help": "\\* `?[tag]` to use a tag\n\\* `?help` to show this command\n\\* `?tag list` to list all tags",
+  "test": "this is a test!!!"
 }
