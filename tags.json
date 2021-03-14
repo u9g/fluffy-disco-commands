@@ -14,5 +14,7 @@
   "move": "In order to make the bot move to a point or goal, mineflayer has a plugin made for it called `mineflayer-pathfinder`\nFor information about how to use it, visit the github repo: <https://github.com/PrismarineJS/mineflayer-pathfinder>",
   
   "problems": "Is your bot having problems? Try these ideas to see if they fix your problem:```md\n1. Make sure you aren't calling functions or using properties of bot that wouldn't work until the 'spawn' event\n2. Check to make sure that your bot isn't having problems with spawn protection```",
-  "helpme": "Is your bot having problems? Try these ideas to see if they fix your problem:```md\n1. Make sure you aren't calling functions or using properties of bot that wouldn't work until the 'spawn' event\n2. Check to make sure that your bot isn't having problems with spawn protection```"
+  "helpme": "Is your bot having problems? Try these ideas to see if they fix your problem:```md\n1. Make sure you aren't calling functions or using properties of bot that wouldn't work until the 'spawn' event\n2. Check to make sure that your bot isn't having problems with spawn protection```",
+  
+  "addtag": "In order to add a tag to the bot, make a pr to the commands repo here: <https://github.com/u9g/fluffy-disco-commands>"
 }
