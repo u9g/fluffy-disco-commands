@@ -5,6 +5,9 @@
   "sharecode": "Give me your code! It will be easier for the both of us, and will make debugging way easier. \nPlease **use <https://privatebin.net/>, <https://gist.github.com/>, or <https://hastebin.com/> **",
   "code": "Give me your code! It will be easier for the both of us, and will make debugging way easier. \nPlease **use <https://privatebin.net/>, <https://gist.github.com/>, or <https://hastebin.com/> **",
   
+  "problems": "Is your bot having problems? Try these ideas to see if they fix your problem:```md\n1. Make sure you aren't calling functions or using properties of bot that wouldn't work until the 'spawn' event\n2. Check to make sure that your bot isn't having problems with spawn protection```",
+  "helpme": "Is your bot having problems? Try these ideas to see if they fix your problem:```md\n1. Make sure you aren't calling functions or using properties of bot that wouldn't work until the 'spawn' event\n2. Check to make sure that your bot isn't having problems with spawn protection```",
+    
   "rte": "https://i.imgur.com/6ffiHIj.png",
   "cb": "Use codeblocks for formatting code:\n\\`\\`\\`js\n<your code here>\n\\`\\`\\`\n\nProduces:\n```js\nif (true) {\n  console.log('Hello World!')\n}\n```",
   "does not work": "Against popular belief \"does not work\" is not sufficient information to provide to receive help.\nWhat's the expected (wanted) behaviour, what's the actual (unwanted) behaviour? Do you get any errors? What's your relevant code that might be causing the issue?",
@@ -12,9 +15,14 @@
   "justask": "Don't ask if you can ask a question, just ask it! If someone knows the answer, they'll do their best to help.\nRead: <https://dontasktoask.com/>",
   "microsoft": "To use microsoft auth with mineflayer, add the key `auth: 'microsoft'` to your `mineflayer.createBot()`:\n```diff\nconst bot = mineflayer.createBot({\n  host: 'localhost',\n  port: 25565,\n  username: 'email@example.com',\n  password: '12345678',\n+ auth: 'microsoft'\n})\n```",
   "move": "In order to make the bot move to a point or goal, mineflayer has a plugin made for it called `mineflayer-pathfinder`\nFor information about how to use it, visit the github repo: <https://github.com/PrismarineJS/mineflayer-pathfinder>",
-  
-  "problems": "Is your bot having problems? Try these ideas to see if they fix your problem:```md\n1. Make sure you aren't calling functions or using properties of bot that wouldn't work until the 'spawn' event\n2. Check to make sure that your bot isn't having problems with spawn protection```",
-  "helpme": "Is your bot having problems? Try these ideas to see if they fix your problem:```md\n1. Make sure you aren't calling functions or using properties of bot that wouldn't work until the 'spawn' event\n2. Check to make sure that your bot isn't having problems with spawn protection```",
   "addtag": "In order to add a tag to the bot, make a pr to the commands repo here: <https://github.com/u9g/fluffy-disco-commands>",
-  "movebot": "If you have a goal where you want your bot to go, use `mineflayer-pathfinder` otherwise use `bot.setControlState`\nSee: minflayer-pathfinder: <https://github.com/PrismarineJS/mineflayer-pathfinder>"
+  "movebot": "If you have a goal where you want your bot to go, use `mineflayer-pathfinder` otherwise use `bot.setControlState`\nSee: minflayer-pathfinder: <https://github.com/PrismarineJS/mineflayer-pathfinder>",
+  "block": "https://github.com/PrismarineJS/prismarine-block",
+  "item": "https://github.com/PrismarineJS/prismarine-item",
+  "windows": "https://github.com/PrismarineJS/prismarine-windows",
+  "physics": "https://github.com/PrismarineJS/prismarine-physics",
+  "mcdata": "https://github.com/PrismarineJS/minecraft-data",
+  "chunk": "https://github.com/PrismarineJS/prismarine-chunk",
+  "chat": "https://github.com/PrismarineJS/prismarine-chat",
+  "entity": "https://github.com/PrismarineJS/prismarine-entity"
 }
