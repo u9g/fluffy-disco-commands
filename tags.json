@@ -23,5 +23,6 @@
   "mcdata": "https://github.com/PrismarineJS/minecraft-data",
   "chunk": "https://github.com/PrismarineJS/prismarine-chunk",
   "chat": "https://github.com/PrismarineJS/prismarine-chat",
-  "entity": "https://github.com/PrismarineJS/prismarine-entity"
+  "entity": "https://github.com/PrismarineJS/prismarine-entity",
+  "tryit": "https://tryitands.ee/"
 }
