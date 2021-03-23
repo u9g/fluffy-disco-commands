@@ -14,7 +14,7 @@
   "cb": "Use codeblocks for formatting code:\n\\`\\`\\`js\n<your code here>\n\\`\\`\\`\n\nProduces:\n```js\nif (true) {\n  console.log('Hello World!')\n}\n```",
   "does not work": "Against popular belief \"does not work\" is not sufficient information to provide to receive help.\nWhat's the expected (wanted) behaviour, what's the actual (unwanted) behaviour? Do you get any errors? What's your relevant code that might be causing the issue?",
   "justask": "Don't ask if you can ask a question, just ask it! If someone knows the answer, they'll do their best to help.\nRead: <https://dontasktoask.com/>",
-  "xy": "> The XY problem is asking about your attempted solution rather than your actual problem. This leads to enormous amounts of wasted time and energy, both on the part of people asking for help, and on the part of those providing help.\n\n credit: <https://xyproblem.info/>",
+  "xy": "> The XY problem is asking about your attempted solution rather than your actual problem. This leads to enormous amounts of wasted time and energy, both on the part of people asking for help, and on the part of those providing help.\n\n From: <https://xyproblem.info/>",
   "microsoft": "To use microsoft auth with mineflayer, add the key `auth: 'microsoft'` to your `mineflayer.createBot()`:\n```diff\nconst bot = mineflayer.createBot({\n  host: 'localhost',\n  port: 25565,\n  username: 'email@example.com',\n  password: '12345678',\n+ auth: 'microsoft'\n})\n```",
   "movebot": "If you have a goal where you want your bot to go, use `mineflayer-pathfinder` otherwise use `bot.setControlState`\nSee: minflayer-pathfinder: <https://github.com/PrismarineJS/mineflayer-pathfinder>",
   "block": "https://github.com/PrismarineJS/prismarine-block",
