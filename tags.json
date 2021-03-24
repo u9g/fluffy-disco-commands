@@ -17,6 +17,7 @@
   "xy": "> The XY problem is asking about your attempted solution rather than your actual problem. This leads to enormous amounts of wasted time and energy, both on the part of people asking for help, and on the part of those providing help.\n\n From: <https://xyproblem.info/>",
   "microsoft": "To use microsoft auth with mineflayer, add the key `auth: 'microsoft'` to your `mineflayer.createBot()`:\n```diff\nconst bot = mineflayer.createBot({\n  host: 'localhost',\n  port: 25565,\n  username: 'email@example.com',\n  password: '12345678',\n+ auth: 'microsoft'\n})\n```",
   "movebot": "If you have a goal where you want your bot to go, use `mineflayer-pathfinder` otherwise use `bot.setControlState`\nSee: minflayer-pathfinder: <https://github.com/PrismarineJS/mineflayer-pathfinder>",
+  "mineflayer": "https://github.com/PrismarineJS/mineflayer",
   "block": "https://github.com/PrismarineJS/prismarine-block",
   "item": "https://github.com/PrismarineJS/prismarine-item",
   "windows": "https://github.com/PrismarineJS/prismarine-windows",
@@ -25,6 +26,8 @@
   "chunk": "https://github.com/PrismarineJS/prismarine-chunk",
   "chat": "https://github.com/PrismarineJS/prismarine-chat",
   "entity": "https://github.com/PrismarineJS/prismarine-entity",
+  "api": "https://github.com/PrismarineJS/mineflayer/blob/master/docs/api.md",
   "tryit": "https://tryitands.ee/",
-  "jsfirst": "**If you are writing a Mineflayer bot for the first time please read the following**\nA Mineflayer bot is not a simple task. Sure, you can use a Mineflayer bot to learn a language, but unless you are proficient in other languages it is not a beginner task.\n\nA Mineflayer bot consists of many different moving parts with varying degrees of complexity. As a developer you must be able to _understand_ these components.\n\nIf you are interested in becoming a programmer or writing Mineflayer bots in the future it is highly recommend learning the language to an intermediate level beforehand.\n\nTo fully learn the language, you can take a look at the respective channel here and look for resources in the message pins and/or channel topic. \n\nWhy am I asking you to learn the language properly?\n Look at <https://meta.stackoverflow.com/a/258208> for the reason why."
+  "jsfirst": "**If you are writing a Mineflayer bot for the first time please read the following**\nA Mineflayer bot is not a simple task. Sure, you can use a Mineflayer bot to learn a language, but unless you are proficient in other languages it is not a beginner task.\n\nA Mineflayer bot consists of many different moving parts with varying degrees of complexity. As a developer you must be able to _understand_ these components.\n\nIf you are interested in becoming a programmer or writing Mineflayer bots in the future it is highly recommend learning the language to an intermediate level beforehand.\n\nTo fully learn the language, you can take a look at the respective channel here and look for resources in the message pins and/or channel topic. \n\nWhy am I asking you to learn the language properly?\n Look at <https://meta.stackoverflow.com/a/258208> for the reason why.",
+  "debug": "In order to debug mineflayer, add this line to the top of your code: \n`process.env.DEBUG = 'minecraft-protocol'`"
 }
