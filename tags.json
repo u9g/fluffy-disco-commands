@@ -8,6 +8,9 @@
   "addtag": "In order to add a tag to the bot, make a pr to the commands repo here: <https://github.com/u9g/fluffy-disco-commands>",
   "addtags": "In order to add a tag to the bot, make a pr to the commands repo here: <https://github.com/u9g/fluffy-disco-commands>",
   
+  "example": "All of the mineflayer examples are available here: <https://github.com/PrismarineJS/mineflayer/tree/master/examples>",
+  "examples": "All of the mineflayer examples are available here: <https://github.com/PrismarineJS/mineflayer/tree/master/examples>",
+  
   "help": "* `?tags reload` to reload the tags\n* `?[tag]` to use a tag\n* `?help` to show this command\n* `?tags list` to list all tags",
   "proxy": "To use a proxy with mineflayer, add the key `connect` to your `mineflayer.createBot()` like this:\n```diff\nconst bot = mineflayer.createBot({\n+  connect: (client) => {\n+    socks.createConnection({\n+      proxy: {\n+        host: <proxy_ip/proxy_host>,\n+        port: <myProxyPort>,'\n+        type: 5,\n+        userId: '<proxy_username>',\n+        password: '<proxy_password>'\n+      },\n+      command: 'connect',\n+      destination: {\n+        host: '<mc_server_host/ip>',\n+        port: <mc_server_port>\n+      }\n+    }, (err, info) => {\n+      if (err) {\n+        console.log(err)\n+        return\n+      }\n+      client.setSocket(info.socket)\n+      client.emit('connect')\n+    })\n+  },\n- host: 'localhost'\n  username: <mc_username>,\n  password: <mc_password>\n})\n```",
   "rte": "https://i.imgur.com/6ffiHIj.png",
