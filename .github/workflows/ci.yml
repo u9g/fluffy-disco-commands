@@ -30,7 +30,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.5
       - name: Sort
-        run: node .github/workflows/run.js
+        run: node .github/workflows/compare.js
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
