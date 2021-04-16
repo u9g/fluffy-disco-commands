@@ -8,8 +8,8 @@ function naturalSort (a, b) {
   return aPriority < bPriority ? 1 : -1
 }
 
-const tags = require('./tags.json')
+const tags = require(path.join(process.cwd(), 'tags.json'))
 const newTags = {}
 Object.entries(tags).sort(naturalSort).forEach(x => { newTags[x[0]] = x[1] })
 
-fs.writeFileSync(path.join('tags.json'), JSON.stringify(newTags, null, 2))
+fs.writeFileSync(path.join(process.cwd(), 'tags.json'), JSON.stringify(newTags, null, 2))
