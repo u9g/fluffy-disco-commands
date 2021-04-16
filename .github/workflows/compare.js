@@ -8,7 +8,7 @@ function naturalSort (a, b) {
   return aPriority < bPriority ? 1 : -1
 }
 
-const tags = require(path.join('tags.json'))
+const tags = require('./tags.json')
 const newTags = {}
 Object.entries(tags).sort(naturalSort).forEach(x => { newTags[x[0]] = x[1] })
 
