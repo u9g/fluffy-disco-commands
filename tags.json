@@ -29,5 +29,6 @@
   "tryandsee": "https://tryitands.ee/",
   "tryit": "https://tryitands.ee/",
   "windows": "https://github.com/PrismarineJS/prismarine-windows",
-  "xy": "> The XY problem is asking about your attempted solution rather than your actual problem. This leads to enormous amounts of wasted time and energy, both on the part of people asking for help, and on the part of those providing help.\n\n From: <https://xyproblem.info/>"
+  "xy": "> The XY problem is asking about your attempted solution rather than your actual problem. This leads to enormous amounts of wasted time and energy, both on the part of people asking for help, and on the part of those providing help.\n\n From: <https://xyproblem.info/>",
+  "sleep": "JavaScript async Promise based sleep\n```js\nfunction sleep(ms) {\n  return new Promise((resolve) => setTimeout(resolve, ms))\n}```Usage```js\nasync function init() {\n  // do action \n  await sleep(500) // wait 500 ms\n  // do other stuff\n}```"
 }
