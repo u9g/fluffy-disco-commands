@@ -8,7 +8,7 @@
   "proxy": "To use a proxy with mineflayer, add the key `connect` to your `mineflayer.createBot()` like this:\n```diff\nconst bot = mineflayer.createBot({\n+  connect: (client) => {\n+    socks.createConnection({\n+      proxy: {\n+        host: <proxy_ip/proxy_host>,\n+        port: <myProxyPort>,'\n+        type: 5,\n+        userId: '<proxy_username>',\n+        password: '<proxy_password>'\n+      },\n+      command: 'connect',\n+      destination: {\n+        host: '<mc_server_host/ip>',\n+        port: <mc_server_port>\n+      }\n+    }, (err, info) => {\n+      if (err) {\n+        console.log(err)\n+        return\n+      }\n+      client.setSocket(info.socket)\n+      client.emit('connect')\n+    })\n+  },\n- host: 'localhost'\n  username: <mc_username>,\n  password: <mc_password>\n})\n```",
   "rte": "https://i.imgur.com/6ffiHIj.png",
   "sleep": "JavaScript Promise based sleep\n```js\nconst sleep = ms => return new Promise((resolve) => setTimeout(resolve, ms))\n```Usage```js\nasync function init() {\n  // do action \n  await sleep(500) // wait 500 ms\n  // do other stuff\n}```",
-  "api": "https://github.com/PrismarineJS/mineflayer/blob/master/docs/api.md",
+  "api": "<https://github.com/PrismarineJS/mineflayer/blob/master/docs/api.md>",
   "block": "https://github.com/PrismarineJS/prismarine-block",
   "cb": "Use codeblocks for formatting code:\n\\`\\`\\`js\n<your code here>\n\\`\\`\\`\n\nProduces:\n```js\nif (true) {\n  console.log('Hello World!')\n}\n```",
   "chat": "https://github.com/PrismarineJS/prismarine-chat",
