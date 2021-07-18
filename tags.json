@@ -20,7 +20,7 @@
   "entity": "https://github.com/PrismarineJS/prismarine-entity",
   "example": "All of the mineflayer examples are available here: <https://github.com/PrismarineJS/mineflayer/tree/master/examples>",
   "examples": "All of the mineflayer examples are available here: <https://github.com/PrismarineJS/mineflayer/tree/master/examples>",
-  "help": "* `?tags reload` to reload the tags\n* `?[tag]` to use a tag\n* `?help` to show this command\n* `?tags list` to list all tags",
+  "help": "* `/tag [tag]` to use a tag\n* `/tag help` to show this command\n* `/list` to list all tags",
   "item": "https://github.com/PrismarineJS/prismarine-item",
   "mcdata": "https://github.com/PrismarineJS/minecraft-data",
   "mineflayer": "https://github.com/PrismarineJS/mineflayer",
