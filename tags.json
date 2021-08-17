@@ -12,6 +12,7 @@
   "block": "https://github.com/PrismarineJS/prismarine-block",
   "cb": "Use codeblocks for formatting code:\n\\`\\`\\`js\n<your code here>\n\\`\\`\\`\n\nProduces:\n```js\nif (true) {\n  console.log('Hello World!')\n}\n```",
   "chat": "https://github.com/PrismarineJS/prismarine-chat",
+  "links": "https://gist.github.com/u9g/f984343c091714040790c93d995f1a36",
   "chunk": "https://github.com/PrismarineJS/prismarine-chunk",
   "code": "Give me your code! It will be easier for the both of us, and will make debugging way easier. \nPlease **use <https://privatebin.net/>, <https://gist.github.com/>, or <https://hastebin.com/> **",
   "debug": "In order to debug mineflayer, add this line to the top of your code: \n`process.env.DEBUG = 'minecraft-protocol'`",
