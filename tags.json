@@ -26,7 +26,7 @@
   "mcd": "<https://minecraft-data.prismarine.js.org>",
   "mcdata": "https://github.com/PrismarineJS/minecraft-data",
   "mineflayer": "https://github.com/PrismarineJS/mineflayer",
-  "movebot": "If you have a goal where you want your bot to go, use `mineflayer-pathfinder` otherwise use `bot.setControlState`\nSee: minflayer-pathfinder: <https://github.com/PrismarineJS/mineflayer-pathfinder>",
+  "movebot": "If you have a goal where you want your bot to go, use `mineflayer-pathfinder` otherwise use `bot.setControlState`\nSee: mineflayer-pathfinder: <https://github.com/PrismarineJS/mineflayer-pathfinder>",
   "physics": "https://github.com/PrismarineJS/prismarine-physics",
   "sharecode": "Give me your code! It will be easier for the both of us, and will make debugging way easier. \nPlease **use <https://privatebin.net/>, <https://gist.github.com/>, or <https://hastebin.com/> **",
   "tryandsee": "https://tryitands.ee/",
