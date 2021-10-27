@@ -32,5 +32,6 @@
   "tryandsee": "https://tryitands.ee/",
   "tryit": "https://tryitands.ee/",
   "windows": "https://github.com/PrismarineJS/prismarine-windows",
-  "xy": "> The XY problem is asking about your attempted solution rather than your actual problem. This leads to enormous amounts of wasted time and energy, both on the part of people asking for help, and on the part of those providing help.\n\n From: <https://xyproblem.info/>"
+  "xy": "> The XY problem is asking about your attempted solution rather than your actual problem. This leads to enormous amounts of wasted time and energy, both on the part of people asking for help, and on the part of those providing help.\n\n From: <https://xyproblem.info/>",
+  "nomouse": "There is no concept of mouse clicking with Mineflayer as it does not simulate mouse clicks. All Mineflayer can do is perform specific actions that happen as a result of clicking in the Minecraft client.\nRight Mouse could be: `bot.placeBlock`, `bot.activateItem`, `bot.openChest` and so on\nLeft Mouse could be: `bot.attack` or `bot.swingArm`\nAnd if you want to get the block the bot is currently looking at use `bot.blockAtCursor`"
 }
