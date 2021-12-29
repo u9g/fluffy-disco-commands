@@ -35,4 +35,6 @@
   "tryit": "https://tryitands.ee/",
   "windows": "https://github.com/PrismarineJS/prismarine-windows",
   "xy": "> The XY problem is asking about your attempted solution rather than your actual problem. This leads to enormous amounts of wasted time and energy, both on the part of people asking for help, and on the part of those providing help.\n\n From: <https://xyproblem.info/>"
+  "read the docs": "Why don't you try visiting <https://mineflayer.prismarine.js.org/#/api>? Your question might be answered there :)",
+  "rtd": "Why don't you try visiting <https://mineflayer.prismarine.js.org/#/api>? Your question might be answered there :)"
 }
