@@ -19,6 +19,7 @@
   "does not work": "Against popular belief \"does not work\" is not sufficient information to provide to receive help.\nWhat's the expected (wanted) behaviour, what's the actual (unwanted) behaviour? Do you get any errors? What's your relevant code that might be causing the issue?",
   "dontasktoask": "Don't ask if you can ask a question, just ask it! If someone knows the answer, they'll do their best to help.\nRead: <https://dontasktoask.com/>",
   "entity": "https://github.com/PrismarineJS/prismarine-entity",
+  "error": "```js\nbot.on('error', console.log)\nbot.on('kicked', console.log)\n```",
   "example": "All of the mineflayer examples are available here: <https://github.com/PrismarineJS/mineflayer/tree/master/examples>",
   "examples": "All of the mineflayer examples are available here: <https://github.com/PrismarineJS/mineflayer/tree/master/examples>",
   "help": "* `/tag [tag]` to use a tag\n* `/tag help` to show this command\n* `/list` to list all tags",
@@ -33,6 +34,5 @@
   "tryandsee": "https://tryitands.ee/",
   "tryit": "https://tryitands.ee/",
   "windows": "https://github.com/PrismarineJS/prismarine-windows",
-  "xy": "> The XY problem is asking about your attempted solution rather than your actual problem. This leads to enormous amounts of wasted time and energy, both on the part of people asking for help, and on the part of those providing help.\n\n From: <https://xyproblem.info/>",
-  "error": "```js\nbot.on('error', console.log)\nbot.on('kicked', console.log)\n```"
+  "xy": "> The XY problem is asking about your attempted solution rather than your actual problem. This leads to enormous amounts of wasted time and energy, both on the part of people asking for help, and on the part of those providing help.\n\n From: <https://xyproblem.info/>"
 }
