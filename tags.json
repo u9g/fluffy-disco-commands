@@ -30,11 +30,11 @@
   "movebot": "If you have a goal where you want your bot to go, use `mineflayer-pathfinder` otherwise use `bot.setControlState`\nSee: mineflayer-pathfinder: <https://github.com/PrismarineJS/mineflayer-pathfinder>",
   "nomouse": "There is no concept of mouse clicking with Mineflayer as it does not simulate mouse clicks. All Mineflayer can do is perform specific actions that happen as a result of clicking in the Minecraft client.\nRight Mouse could be: `bot.placeBlock`, `bot.activateItem`, `bot.openChest` and so on\nLeft Mouse could be: `bot.attack` or `bot.swingArm`\nAnd if you want to get the block the bot is currently looking at use `bot.blockAtCursor`",
   "physics": "https://github.com/PrismarineJS/prismarine-physics",
+  "read the docs": "Why don't you try visiting <https://mineflayer.prismarine.js.org/#/api>? Your question might be answered there :)",
+  "rtd": "Why don't you try visiting <https://mineflayer.prismarine.js.org/#/api>? Your question might be answered there :)",
   "sharecode": "Give me your code! It will be easier for the both of us, and will make debugging way easier. \nPlease **use <https://privatebin.net/>, <https://gist.github.com/>, or <https://hastebin.com/> **",
   "tryandsee": "https://tryitands.ee/",
   "tryit": "https://tryitands.ee/",
   "windows": "https://github.com/PrismarineJS/prismarine-windows",
-  "xy": "> The XY problem is asking about your attempted solution rather than your actual problem. This leads to enormous amounts of wasted time and energy, both on the part of people asking for help, and on the part of those providing help.\n\n From: <https://xyproblem.info/>",
-  "read the docs": "Why don't you try visiting <https://mineflayer.prismarine.js.org/#/api>? Your question might be answered there :)",
-  "rtd": "Why don't you try visiting <https://mineflayer.prismarine.js.org/#/api>? Your question might be answered there :)"
+  "xy": "> The XY problem is asking about your attempted solution rather than your actual problem. This leads to enormous amounts of wasted time and energy, both on the part of people asking for help, and on the part of those providing help.\n\n From: <https://xyproblem.info/>"
 }
