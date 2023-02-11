@@ -37,5 +37,5 @@
   "tryit": "https://tryitands.ee/",
   "windows": "https://github.com/PrismarineJS/prismarine-windows",
   "xy": "> The XY problem is asking about your attempted solution rather than your actual problem. This leads to enormous amounts of wasted time and energy, both on the part of people asking for help, and on the part of those providing help.\n\n From: <https://xyproblem.info/>",
-  "readme": "Before you ask a question here, please remember to read the README of the package first. It's where you found the button to join our Discord!\nMost questions about basic usage can be answered by reading through it, which includes links to helpful examples, documentation and frequently asked questions. To save your time and ours, please only ask a question here if the documentation is not clear, is incorrect or does not sufficiently cover your question."
+  "readme": "Before you ask a question here, please remember to read the README of the package first. It's where you found the button to join our Discord!\n\nMost questions about basic usage can be answered by reading through it, which includes links to helpful examples, documentation and frequently asked questions. To save your time and ours, please only ask a question here if the documentation is not clear, is incorrect or does not sufficiently cover your question."
 }
